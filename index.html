@@ -64,10 +64,10 @@
         <li>Certfication preparation</li>
     </div>
     <div class="choice-lesson">
+        <a href="">
         <div class="lesson">
-            <a href="">
             <div class="img-lesson">
-                <img src="./img/a27e5ebde4c897aa17648afda091a7eb.jpg" alt="">
+                <img src="./img/hinh1.jpg" alt="">
             </div>
             <div class="text-lesson">
                 <div>
@@ -78,12 +78,12 @@
                     <span>Lecture <sup>.</sup></span>1m
                 </div>
             </div>
-            </a>
         </div>
-        <div class="lesson">
-            <a href="./page2/index.html">
+        </a>
+        <a href="./page2/index.html">
+        <div class="lesson">   
             <div class="img-lesson">
-                <img src="./img/a27e5ebde4c897aa17648afda091a7eb.jpg" alt="">
+                <img src="./img/hinh2.jpg" alt="">
             </div>
             <div class="text-lesson">
                 <p>MuleSoft 4.X Complete Guide For Beginners- Hands On Project</p>
@@ -92,22 +92,24 @@
                     <span>Lecture <sup>.</sup></span>6m left
                 </div>
             </div>  
-            </a>
         </div>
+        </a>
+        <a href="">
         <div class="lesson">
-            <a href="">
+            
             <div class="img-lesson">
-                <img src="./img/a27e5ebde4c897aa17648afda091a7eb.jpg" alt="">
+                <img src="./img/hinh3.jpg" alt="">
             </div>
             <div class="text-lesson">
-                <p>FPT_ISMS Refresh Training S2 2024</p>
-                <h4>1. Introduction</h4>
+                <p>English Vocabulary: 504 Essential Word</p>
+                <h4>7. Quiz and questions</h4>
                 <div class="lecture">
                     <span>Quiz<sup>.</sup></span>9 questions
                 </div>
             </div>
-            </a>
+            
         </div>
+        </a>
     </div>
     <div class="header-page2">
         <h1>Based on your certification interests, we recommend</h1>
@@ -310,16 +312,14 @@
         font-family: sans-serif;
     }
     .lesson {
-        width: calc(100% / 3 - 8px);
+        width: 100%;
         display: flex;
         border: 1px solid #ccc;
         gap: 15px;
     }
-    .img-lesson {
-        width: 40%;
-    }
     .img-lesson img {
-        width: 100%;   
+        width: 100%; 
+        height: 100%;  
     }
     .choice-lesson {
         padding: 10px 40px;
@@ -381,7 +381,6 @@
         padding: 10px 40px;
         display : flex;
         gap: 40px;
-        height: 300px;
     }
     .body-page2 a {
         text-decoration: none;
@@ -407,6 +406,9 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
         overflow: hidden;
+    }
+    .text-sbj {
+        padding: 0 5px;
     }
     .report {
         display: flex;
@@ -444,12 +446,15 @@
         color: #fff;
         padding: 10px 20px;
     }
-    .lesson a {
+    .choice-lesson a {
         display: flex;
         text-decoration: none;
+        width: calc(100% / 3);
     }
-    .lesson a:hover {
+    .choice-lesson a:hover {
         box-shadow: 0 0 5px #3a3a3a;
     }
-
+    .body-page2 a:hover {
+        box-shadow: 0 0 2px #000000;
+    }
 </style>
