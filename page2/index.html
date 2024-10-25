@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="btn-home">
+            <img src="/img/left-chevron-svgrepo-com.svg" alt="">Home
+        </div>
+        <div class="header-right">
+            <p>MuleSoft 4.X Complete Guide For Beginners- Hands On Project</p>
+            <nav class="nav-menu">
+                <div class="menu">
+                    <img src="/img/star-svgrepo-com.svg" alt="">
+                    <p>Leave a rating </p>
+                </div>
+                <div class="menu">
+                    <div class="img-trophy">
+                        <img src="/img/trophy-svgrepo-com.svg" alt="">
+                    </div>
+                    <p>Your progress </p> 
+                    <img src="/img/down-chevron-svgrepo-com (1).svg" alt="">
+                </div>
+                <div class="menu">
+                    <a href=""><button>Share <img src="/img/down-chevron-svgrepo-com (1).svg" alt=""></button> </a> 
+                    <a href=""><img src="/img/dot-menu-more-svgrepo-com.svg" alt=""></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="body">
+        <div class="body-left">
+            <div class="video">
+                <video controls src="/video/vd1.mp4"></video>
+            </div>
+            <nav class="nav-body-left">
+                <li><img src="/img/search-alt-1-svgrepo-com.svg" alt=""></li>
+                <li>Overview</li>
+                <li>Q&A</li>
+                <li>Notes</li>
+                <li>Announcements</li>
+                <li>Reviews</li>
+                <li>Learning tools</li>
+            </nav>
+            <p>Upgraded with latest MuleSoft ESB versions, Anypoint Platform, DataWeave, MUnit, DevOps, MCD Tests and Realtime Project</p>
+            <div class="comment">
+                <div class="cmt">
+                    <p>4.6 <img src="/img/bookmark-favorite-rating-star-svgrepo-com.svg" alt=""></p>
+                    <p>4,705 ratings</p>
+                </div>
+                <div class="cmt">
+                    <p>26,379</p>
+                    <p>Students</p>
+                </div>
+                <div class="cmt">
+                    <p>50.5 hours</p>
+                    <p>Total</p>
+                </div>
+            </div>
+            <div class="more">
+                <img src="/img/information-svgrepo-com (1).svg" alt="">
+                <p>Last update November 2023</p>
+            </div>
+            <div class="more">
+                <img src="/img/earth-svgrepo-com.svg" alt="">
+                <p>English</p>
+                <img src="/img/keyboard-svgrepo-com.svg" alt="">
+                <p>English [auto], French[Auto],<a href="">5 more</a></p>
+            </div>
+        </div>
+        <div class="body-right">
+
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background: #333; 
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: 60px;
+    }
+    .btn-home {
+        border-right: 1px solid #636363f1;
+        padding: 0 20px;
+        display: flex;
+        gap: 10px;
+    }
+    .btn-home img {
+        width: 15px;
+    }
+    .nav-menu {
+        display: flex;
+        /* align-items: center; */
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .menu {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+    .nav-menu img {
+        width: 20px
+    }
+    .header-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(100% - 80px);
+    }
+    .menu a button {
+        background: #333; 
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 5px;
+        height: 100%;
+        align-items: center;
+        display: flex;
+    }
+    .menu a button:hover {
+        background: #ccc; 
+        color: #333;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    .menu a>img {
+        width: 20px;
+        border: 1px solid #fff;
+        padding: 9.5px 5px;
+    }
+    .menu a {
+        height: 40px;
+    }
+    .img-trophy {
+        padding: 5px 8px;
+        border: 3px solid #6969694a;
+        border-radius: 50%;
+        position: relative;
+    }
+    .img-trophy::before {
+        content: "";
+        width: 5px;
+        display: block;
+        border-top: 3px solid #aeaeaecc;
+        border-radius: 50%;
+        position: absolute;
+        top: -2px;
+        right: 42%;
+    }
+    .body-left {
+        width: calc(100% - 500px);
+    }
+    .body-left iframe {
+        width: 100%;
+    }
+    .body-right {
+        width: 500px;
+    }
+    .body-left video {
+        width: calc(100% - 100px);
+        height: auto;
+    }
+    .video {
+        width: 100%;
+        background: #000000;
+        text-align: center;
+    }
+    .nav-body-left {
+        display: flex;
+        gap: 20px;
+        padding: 0 20px;
+        border-bottom: 1px solid #838282c6;
+        margin: 20px 5px;
+    }
+    .nav-body-left img {
+        width: 20px;
+    }
+    .nav-body-left li {
+        list-style: none;
+    }
+    .nav-body-left li:hover {
+        border-bottom: 1px solid #000000;
+        cursor: pointer;
+        font-family: sans-serif;
+    }
+    .body-left p {
+        font-size: 19px;
+        padding: 10px 20px;
+    }
+    .cmt img{
+        width: 17px;
+        align-items: center;
+    }
+    .cmt p {
+        padding: 0;
+        margin: 0;
+    }
+    .cmt p:last-child {
+        color: #8e8e8e;
+        font-size: 15px;
+    }
+    .cmt {
+        padding: 20px;
+    }
+    .comment {
+        display: flex;
+        width: 100%;
+        height: 70px;
+    }
+    .more img {
+        width: 20px;
+        height: 20px;
+    }
+    .more {
+        display: flex;
+        padding: 10px 20px;
+        align-items: center;
+        height: 30px;
+        width: 100%;
+    }
+</style>
